@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/e2y12goe81w3qf22?svg=true)](https://ci.appveyor.com/project/mrvotum/marketika)
+[![Build status](https://ci.appveyor.com/api/projects/status/sxf7cdycohmtn8r4/branch/master?svg=true)](https://ci.appveyor.com/project/mrvotum/marketika/branch/master)
 
 ## not adaptive!
 ### link: https://mrvotum.github.io/marketika/
