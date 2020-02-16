@@ -151,8 +151,8 @@ input, div {
 .first_block {
     color: #414141;
     padding-top: 120px;
-    padding-left: 216px;
-    padding-right: 216px;
+    padding-left: 13.5%;
+    padding-right: 13.5%;
 }
 
 .video_block {
@@ -270,7 +270,11 @@ input, div {
     margin-left: 19.8125%;
     margin-top: 34px;
     margin-bottom: -3px;
+    /* width: 24%; */
 }
+/* .img_holder > img {
+    width: 100%;
+} */
 .quote_text_block {
     padding-left: 55px;
 }
