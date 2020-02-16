@@ -148,12 +148,114 @@ input, div {
 
 
 
+.first_block {
+    color: #414141;
+    padding-top: 120px;
+    padding-left: 216px;
+    padding-right: 216px;
+}
+
+.video_block {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 113px;
+}
+.video_block::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #E2E2E2;
+    left: 0;
+    bottom: -113px;
+}
+.first_block_description_holder,
+.first_block_video_holder {
+    /* width: 50%; */
+}
+.first_block_description_title {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 55px;
+}
+.first_block_description_small_title {
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin-top: 25px;
+}
+.first_block_description_text {
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 28px;
+    font-family: Lato-Light;
+    display: block;
+    margin-top: 18px;
+
+    width: 383px;
+}
+
+.image {
+    width: 556px;
+    height: 411px;
+    background-color: rgb(58, 165, 76);
+    border-radius: 5px;
+    position: relative;
+}
+.image::before {
+    position: absolute;
+    content: '';
+    width: 84px;
+    height: 84px;
+    background: linear-gradient(90deg, #FE985B 0%, #FE4FA7 100%);
+    top: calc(50% - 84px / 2);
+    left: calc(50% - 84px / 2);
+    border-radius: 50%;
+}
+.image:hover::before {
+    cursor: pointer;
+}
+.image::after {
+    position: absolute;
+    content: '';
+    top: calc(50% - 12px);
+    left: calc(50% - 7px);
+    border: 12px solid transparent;
+    border-left: 18px solid #fff;
+}
+
+.idea_block__holder {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.idea_block {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 86px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .idea_icon_holder {
     width: 60px;
-    height: 20px;
 }
 .idea_icon_holder > img {
     width: 100%;
+}
+.idea_title {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.idea_text {
+    font-size: 16px;
+    color: #6C6C6C;
+    font-family: Lato-Light;
+    line-height: 28px;
+    margin-top: 18px;
 }
 
 
